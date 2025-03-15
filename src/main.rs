@@ -11,7 +11,7 @@ fn App() -> Element {
     rsx! {
         document::Link { rel: "stylesheet", href: TAILWIND_CSS }
         div {
-            class: "h-screen bg-black text-white",
+            class: "h-screen bg-red-500 text-white",
             "Hello, world!"
         }
     }
